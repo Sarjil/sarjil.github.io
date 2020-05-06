@@ -1929,6 +1929,12 @@ input, select, textarea {
 			
 		}
 
+		.resume-about{
+			display: flex;
+			justify-content: center;
+			/* flex-direction: column; */
+		}
+
 		.tech-header{
 			text-align: center;
 		}
