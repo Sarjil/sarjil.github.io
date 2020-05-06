@@ -226,8 +226,19 @@ input, select, textarea {
 		margin-left: 10px;
 		border: 3px solid grey;
 		border-radius: 50%!important;
+		opacity: 100%!important;
 		
 	}
+
+	.navbar{
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.navicon{
+		size: 40px;
+	}
+
 
 /* Container */
 
@@ -1517,7 +1528,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
+			display: flex;
 			width: 50%;
 		}
 
@@ -1914,7 +1925,17 @@ input, select, textarea {
 			text-align: center;
 			background-color: white;
 			border-radius: 30px;
-			opacity: .55;
+			/* opacity: .75; */
+			
+		}
+
+		.tech-header{
+			text-align: center;
+		}
+
+		.row-text{
+			display: flex;
+			justify-content: space-around;
 		}
 
 			.box.style2 header {
@@ -2129,6 +2150,7 @@ input, select, textarea {
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
+		/* opacity: .85; */
 	}
 
 		#banner .button {
